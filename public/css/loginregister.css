@@ -1,0 +1,29 @@
+body{
+  background-color:#d2d3ce;
+  padding-top: 2em;
+}
+.card{
+  border-radius: 40px;
+}
+.card-img{
+  padding: 0px;
+  max-height: 600px;
+}
+.img-form{
+  border-radius: 40px 0px 0px 40px;
+  background-size: cover;
+  height: 600px;
+}
+.card-form{
+  padding: 85px 60px 60px;
+}
+.card-form>a,.card-form>p>a,
+.card-form>small>a
+{
+  text-decoration: none;
+}
+@media only screen and (max-width: 767px) {
+  .imgCard {
+    display: none;
+  }
+}

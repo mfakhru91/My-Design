@@ -1,0 +1,17 @@
+body{
+  background-image: url('../image/404background.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+  margin-top: 200px;
+  color: white;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+a:hover{
+  color: gray;
+  text-decoration: none;
+}
